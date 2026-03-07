@@ -1,7 +1,7 @@
 # Projeto Integrador - Mineracao de Dados
 
-Curso: Tecnologia em Analise e Desenvolvimento de Sistemas  
-Disciplina: Mineracao de Dados  
+Curso: Banco de Dados
+Disciplina: Projeto Integrador (Mineracao de Dados)
 Instituicao: SENAC EAD
 
 ## Ciencia de Dados Aplicada a Situacoes de Mercado
