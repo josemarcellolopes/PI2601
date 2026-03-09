@@ -1,20 +1,20 @@
-# Projeto Integrador - Mineracao de Dados
+# Projeto Integrador - Mineração de Dados
 
 Curso: Tecnologia em Banco de Dados
 
-Disciplina: Projeto Integrador (Mineracao de Dados)
+Disciplina: Projeto Integrador (Mineração de Dados)
 
-Instituicao: SENAC EAD
+Instituição: SENAC EAD
 
-## Ciencia de Dados Aplicada a Situacoes de Mercado
+## Ciência de Dados Aplicada a Situações de Mercado
 
-Este projeto aplica tecnicas de **Analise Exploratoria de Dados (EDA)** em um conjunto de vendas de supermercado, com foco em gerar indicadores e visualizacoes para apoiar decisoes comerciais.
+Este projeto aplica técnicas de **Análise Exploratória de Dados (EDA)** em um conjunto de vendas de supermercado, com foco em gerar indicadores e visualizações para apoiar decisões comerciais.
 
 ## Objetivo
 
-- Explorar a base de vendas para identificar padroes de faturamento, margem e volume.
-- Produzir visualizacoes claras para comparacao por categoria, regiao e periodo.
-- Traduzir os resultados em insights acionaveis para negocio.
+- Explorar a base de vendas para identificar padrões de faturamento, margem e volume.
+- Produzir visualizações claras para comparação por categoria, região e período.
+- Traduzir os resultados em insights acionáveis para o negócio.
 
 ## Abrir Notebook no Google Colab
 
@@ -46,69 +46,69 @@ pi_entrega/
     `-- relatorio_projeto_integrador.pdf
 ```
 
-## Descricao do Dataset
+## Descrição do Dataset
 
 Arquivo: `dataset_vendas_supermercado.csv`
 
 Principais colunas:
 
-- `id_venda`: identificador unico da venda.
-- `data`: data da transacao.
-- `regiao`: regiao de venda (ex.: Norte, Sul, Sudeste).
+- `id_venda`: identificador único da venda.
+- `data`: data da transação.
+- `regiao`: região de venda (ex.: Norte, Sul, Sudeste).
 - `categoria`: categoria de produto.
 - `produto`: nome do item vendido.
 - `quantidade`: unidades vendidas.
-- `preco_unitario`: valor unitario do item.
+- `preco_unitario`: valor unitário do item.
 - `faturamento`: valor total da venda.
-- `custo`: custo associado a venda.
-- `margem`: diferenca entre faturamento e custo.
-- `canal`: canal de venda (Loja Fisica, Delivery, E-commerce).
-- `pagamento`: forma de pagamento (Pix, Cartao, Dinheiro).
+- `custo`: custo associado à venda.
+- `margem`: diferença entre faturamento e custo.
+- `canal`: canal de venda (Loja Física, Delivery, E-commerce).
+- `pagamento`: forma de pagamento (Pix, Cartão, Dinheiro).
 
 ## Como Executar
 
-### Opcao 1: Google Colab
+### Opção 1: Google Colab
 
 1. Clique no badge "Open in Colab" acima.
-2. Execute as celulas na ordem do notebook.
-3. Confira os indicadores e os 5 graficos gerados.
+2. Execute as células na ordem do notebook.
+3. Confira os indicadores e os 5 gráficos gerados.
 
-### Opcao 2: Ambiente local (Jupyter)
+### Opção 2: Ambiente local (Jupyter)
 
 1. Crie e ative um ambiente virtual.
-2. Instale as dependencias.
+2. Instale as dependências.
 3. Abra o notebook no Jupyter Lab/Notebook.
-4. Execute as celulas em sequencia.
+4. Execute as células em sequência.
 
-Exemplo de instalacao:
+Exemplo de instalação:
 
 ```bash
 pip install pandas numpy matplotlib jupyter
 jupyter notebook projeto_integrador_colab.ipynb
 ```
 
-## Analises e Visualizacoes
+## Análises e Visualizações
 
 O notebook apresenta:
 
 1. Faturamento por categoria.
-2. Faturamento por regiao.
-3. Evolucao mensal do faturamento.
-4. Distribuicao do valor das vendas.
+2. Faturamento por região.
+3. Evolução mensal do faturamento.
+4. Distribuição do valor das vendas.
 5. Top 10 produtos por quantidade vendida.
 
-Tambem sao calculados indicadores de sintese, como:
+Também são calculados indicadores de síntese, como:
 
 - Faturamento total.
 - Margem total.
-- Ticket medio.
+- Ticket médio.
 
 ## Resultados Esperados
 
-- Identificacao de categorias e regioes mais relevantes para receita.
-- Visao de sazonalidade para apoio a metas e planejamento comercial.
-- Entendimento da distribuicao dos valores de venda.
-- Apoio a decisoes de estoque com base nos produtos mais vendidos.
+- Identificação de categorias e regiões mais relevantes para receita.
+- Visão de sazonalidade para apoio a metas e planejamento comercial.
+- Entendimento da distribuição dos valores de venda.
+- Apoio a decisões de estoque com base nos produtos mais vendidos.
 
 ## Integrantes
 
@@ -120,7 +120,7 @@ Tambem sao calculados indicadores de sintese, como:
 - SAVIO ANTONIO PEREIRA
 - VITOR HAAG PEZZINI
 
-## Observacoes
+## Observações
 
-- O notebook foi estruturado para uso didatico e execucao sequencial.
-- Caso execute localmente, mantenha o arquivo `dataset_vendas_supermercado.csv` no mesmo diretorio do notebook.
+- O notebook foi estruturado para uso didático e execução sequencial.
+- Caso execute localmente, mantenha o arquivo `dataset_vendas_supermercado.csv` no mesmo diretório do notebook.
